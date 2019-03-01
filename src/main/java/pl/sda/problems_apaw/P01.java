@@ -1,5 +1,6 @@
 package pl.sda.problems_apaw;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -21,7 +22,15 @@ public class P01 {
     }
 
     public static boolean isPalindrome(List<String> asList) {
-        return true;
+
+        for (int i =0; i<asList.size(); i++) {
+            if (asList.get(i) != asList.get(asList.size() - 1)) {
+                return true;
+
+            }
+        }
+
+        return false;
     }
 
     public static boolean isPalindrome1(List<Integer> asList) {

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6559175-23d1-4f56-8409-a58c66ea36e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/problems_apaw/P01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/sda/problems_apaw/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems_APAW.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Problems_APAW.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/problems_apaw/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/problems_apaw/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/problems_apaw/P01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/problems_apaw/P01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +27,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/problems_apaw/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
+            <state relative-caret-position="112">
               <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,11 +39,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/problems_apaw/P01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="238">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="1386">
               <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
             </state>
           </provider>
@@ -94,9 +88,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="93" />
+    <option name="x" value="699" />
     <option name="y" value="70" />
-    <option name="width" value="1781" />
+    <option name="width" value="1175" />
     <option name="height" value="969" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -105,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,11 +195,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551378558371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551455677398" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
@@ -230,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.shouldReverseAList">
+  <component name="RunManager" selected="JUnit.MainTest.shouldReturnTrueWhenListIsPalindromwe">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.problems_apaw.Main" />
       <module name="Problems_APAW" />
@@ -257,6 +251,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.shouldReturnTrueWhenListIsPalindromwe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Problems_APAW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.problems_apaw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.problems_apaw" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.problems_apaw.MainTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueWhenListIsPalindromwe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.shouldReverseAList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems_APAW" />
       <extension name="coverage">
@@ -277,9 +287,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.MainTest.shouldFindLastElementFromAListOfAlphabets" />
       <item itemvalue="JUnit.MainTest.shouldReverseAList" />
+      <item itemvalue="JUnit.MainTest.shouldReturnTrueWhenListIsPalindromwe" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.shouldReturnTrueWhenListIsPalindromwe" />
         <item itemvalue="JUnit.MainTest.shouldReverseAList" />
         <item itemvalue="JUnit.MainTest.shouldFindLastElementFromAListOfAlphabets" />
       </list>
@@ -296,13 +308,32 @@
       <option name="presentableId" value="Default" />
       <updated>1550412834069</updated>
     </task>
+    <task id="LOCAL-00001" summary="reverseList test ok">
+      <created>1551378646108</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551378646108</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MainTest_shouldReverseAList - 2019.02.28 at 19h 28m 05s.xml">
+      <configuration name="MainTest.shouldReverseAList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_shouldFindLastElementFromAListOfAlphabets - 2019.02.28 at 19h 28m 21s.xml">
+      <configuration name="MainTest.shouldFindLastElementFromAListOfAlphabets" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_shouldReverseAList - 2019.02.28 at 19h 29m 25s.xml">
+      <configuration name="MainTest.shouldReverseAList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25725028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,7 +342,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,7 +350,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3299435" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3299435" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -330,11 +361,25 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reverseList test ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverseList test ok" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
+        <state relative-caret-position="1386">
           <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/problems_apaw/P01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -345,20 +390,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/problems_apaw/P01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/sda/problems_apaw/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="112">
           <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
