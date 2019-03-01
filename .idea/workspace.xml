@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/problems_apaw/P01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="364">
+              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,7 +200,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551455677398" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551456031310" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
   </component>
@@ -224,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.shouldReturnTrueWhenListIsPalindromwe">
+  <component name="RunManager" selected="JUnit.MainTest.shouldReturnFalseWhenListIsNotPalindrome">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.problems_apaw.Main" />
       <module name="Problems_APAW" />
@@ -246,6 +246,22 @@
       <option name="PACKAGE_NAME" value="pl.sda.problems_apaw" />
       <option name="MAIN_CLASS_NAME" value="pl.sda.problems_apaw.MainTest" />
       <option name="METHOD_NAME" value="shouldFindLastElementFromAListOfAlphabets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.shouldReturnFalseWhenListIsNotPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Problems_APAW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.problems_apaw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.sda.problems_apaw" />
+      <option name="MAIN_CLASS_NAME" value="pl.sda.problems_apaw.MainTest" />
+      <option name="METHOD_NAME" value="shouldReturnFalseWhenListIsNotPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -288,9 +304,11 @@
       <item itemvalue="JUnit.MainTest.shouldFindLastElementFromAListOfAlphabets" />
       <item itemvalue="JUnit.MainTest.shouldReverseAList" />
       <item itemvalue="JUnit.MainTest.shouldReturnTrueWhenListIsPalindromwe" />
+      <item itemvalue="JUnit.MainTest.shouldReturnFalseWhenListIsNotPalindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.shouldReturnFalseWhenListIsNotPalindrome" />
         <item itemvalue="JUnit.MainTest.shouldReturnTrueWhenListIsPalindromwe" />
         <item itemvalue="JUnit.MainTest.shouldReverseAList" />
         <item itemvalue="JUnit.MainTest.shouldFindLastElementFromAListOfAlphabets" />
@@ -315,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551378646108</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="palindrom String test ok">
+      <created>1551455783919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551455783919</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -327,6 +352,15 @@
     </history-entry>
     <history-entry file="MainTest_shouldReverseAList - 2019.02.28 at 19h 29m 25s.xml">
       <configuration name="MainTest.shouldReverseAList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_shouldReturnTrueWhenListIsPalindromwe - 2019.03.01 at 16h 52m 40s.xml">
+      <configuration name="MainTest.shouldReturnTrueWhenListIsPalindromwe" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_shouldReturnTrueWhenListIsPalindromwe - 2019.03.01 at 16h 53m 26s.xml">
+      <configuration name="MainTest.shouldReturnTrueWhenListIsPalindromwe" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_shouldReturnTrueWhenListIsPalindromwe - 2019.03.01 at 16h 54m 43s.xml">
+      <configuration name="MainTest.shouldReturnTrueWhenListIsPalindromwe" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -363,7 +397,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reverseList test ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverseList test ok" />
+    <MESSAGE value="palindrom String test ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="palindrom String test ok" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -375,8 +410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/problems_apaw/P01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="364">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

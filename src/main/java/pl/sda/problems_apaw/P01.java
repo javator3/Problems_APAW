@@ -35,6 +35,12 @@ public class P01 {
 
     public static boolean isPalindrome1(List<Integer> asList) {
 
+        for (int i = 0; i <asList.size(); i++){
+            if (asList.get(i) == asList.get(asList.size()-1)){
+                return false;
+            }
+        }
+
         return true;
     }
 }
